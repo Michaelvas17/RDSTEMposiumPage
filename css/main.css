@@ -33,14 +33,14 @@ header {
 
 header .container {
 	
-    padding-top: 150px;
+    padding-top: 240px;
     padding-bottom: 250px;
 }
 
 
 header .intro-text .name {
     display: block;
-    font-size: 4em;
+    font-size: 46px;
     font-weight: 300;
 }
 
@@ -167,8 +167,14 @@ section.contents{
     max-height: 400px;
     
     }
-    
-@media (max-width: 767px) {
+	
+/* START DEVICE SCALING */
+/* ALL SMARTPHONES/TABLETS */    
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777;
     }
@@ -176,10 +182,10 @@ section.contents{
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
     }
-	.img-headwrap {
-    max-width: 100%;
-    max-height: 235px;
+	
 }
+
+
 
 p .description {
 size: 20px;
@@ -209,8 +215,69 @@ size: 20px;
 	}
 }
 }
-    
+
+/* iPhone 6 Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  
+  .img-headwrap {
+    max-width: 100%;
+    max-height: 235px;
+	padding-bottom: 20px;
 }
+
+header .intro-text .name {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header .intro-text .skills {
+    font-size: 14px;
+    font-weight: 400;
+}
+header .container {
+	
+    padding-top: 230px;
+    padding-bottom: 250px;
+}
+
+  }
+  
+/* iPhone 6 Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  
+  .img-headwrap {
+    max-width: 375px;
+    max-height: 235px;  
+}
+header .intro-text .name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+header .intro-text .skills {
+    font-size: 14px;
+    font-weight: 400;
+}
+header .container {
+	
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+  }
+  
+  
+  
+
 .caption div {
     box-shadow: 0 0 5px #C8C8C8;
     transition: all 0.3s ease 0s;
