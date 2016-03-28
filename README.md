@@ -1,7 +1,9 @@
 # River Dell HS STEMposium Page
 This is the repo for the development of the STEMposium site.
 
-This repo serves only for the development of the site, and will be moved elsewhere once finished. (Cool Story Bro)
+This repo serves only for the development of the site, and the site will be hosted on the riverdell.org domain eventually.
+
+All source files will remain here, of course. (i.e. CSS, JS, Python, and a copy of the page)
 
 # Contributors
 
