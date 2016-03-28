@@ -1,13 +1,19 @@
-# River Dell HS STEMposium Page
+#The River Dell High School STEMposium Website Development Respository (phew... long title, I know)
+
+Just your average web-dev repo.
+You can view the site live at this link [here](https://www.rdhs-stemposium.github.io/site)
+
+### About
 This is the repo for the development of the STEMposium site.
 
 This repo serves only for the development of the site, and the site will be hosted on the riverdell.org domain eventually.
 
 All source files will remain here, of course. (i.e. CSS, JS, Python, and a copy of the page)
 
-# Contributors
 
-<b>Michael Vasile (Michaelvas17)</b>: Website Overlord.
+### Contributors
+
+<b>Michael Vasile (Michaelvas17)</b>: Website Overlord and Repository Manager.
 
 <b>Gregory Sarafian (GregSarafian)</b>: Design & Script Master.
 
