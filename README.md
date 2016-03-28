@@ -1,7 +1,7 @@
 #The River Dell High School STEMposium Website Development Respository (phew... long title, I know)
 
 Just your average web-dev repo.
-You can view the site live at this link [here](https://www.rdhs-stemposium.github.io/site)
+You can view the site live at this link [here](https://rdhs-stemposium.github.io/site/)
 
 ### About
 This is the repo for the development of the STEMposium site.
