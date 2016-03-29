@@ -10,13 +10,12 @@
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
+        }
+	p .description {
+		size: 20px;
+	
+	}
     }
-	
-
-p .description {
-size: 20px;
-	
-}
 .custom-navbar .navbar-right {
 	    float: right;
 	    padding-right: 15px;
