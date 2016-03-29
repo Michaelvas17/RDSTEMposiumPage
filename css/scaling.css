@@ -101,4 +101,63 @@ header .container {
     padding-bottom: 250px;
 }
   }
+  /* IPHONE 5&4 INCH DEVICES */
+  /* iPhone 5 Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .img-headwrap {
+    max-width: 375px;
+    max-height: 235px;  
+}
+header .intro-text .name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+header .intro-text .skills {
+    font-size: 14px;
+    font-weight: 400;
+}
+header .container {
+	
+    padding-top: 90px;
+    padding-bottom: 250px;
+}
+  	
+}
+
+/* iPhone 5 Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+.img-headwrap {
+    max-width: 375px;
+    max-height: 235px;  
+}
+header .intro-text .name {
+    display: block;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+header .intro-text .skills {
+    font-size: 14px;
+    font-weight: 400;
+}
+header .container {
+	
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+}
+
 
