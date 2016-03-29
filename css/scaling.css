@@ -3,7 +3,7 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 900px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 2){ 
   
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777; }
@@ -101,29 +101,4 @@ header .container {
     padding-bottom: 250px;
 }
   }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
- .img-headwrap {
-    max-width: 375px;
-    max-height: 235px;  
-}
-header .intro-text .name {
-    display: block;
-    font-size: 40px;
-    font-weight: 300;
-}
 
-header .intro-text .skills {
-    font-size: 14px;
-    font-weight: 400;
-}
-header .container {
-	
-    padding-top: 90px;
-    padding-bottom: 250px;
-}
-    
-  }
