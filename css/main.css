@@ -364,7 +364,19 @@ a.hover {
   background-color: #595959;
   border-color: #fff;
     }
-    
+.btn-mapit {
+  color: #1a75ff;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 24px;
+}
+
+.btn-mapit:hover, .btn-mapit:focus, .btn-mapit:active, .btn-mapit.active, .open > .btn-mapit.dropdown-toggle {
+    color: #fff;
+  background-color: #1a75ff;
+  border-color: #fff;
+    }
+
 /* Presentation Modals (freelancer) */    
 .porfolio-modal {
 	color: #000000;
