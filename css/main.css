@@ -441,3 +441,10 @@ a.hover {
   opacity: 0;
   display: none;
 }
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+    background-color: #333333;
+}
