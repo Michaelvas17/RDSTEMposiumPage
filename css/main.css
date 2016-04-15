@@ -449,3 +449,7 @@ a.hover {
     border-radius: 0px !important; 
     background-color: #333333;
 }
+
+.portfolio-modal .modal-backdrop {
+   background-color: red;
+}
