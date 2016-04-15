@@ -379,8 +379,7 @@ a.hover {
 
 /* Presentation Modals (freelancer) */    
 .portfolio-modal {
-	background-color: #000000;
-	color: #fff;
+	padding-right: 0px !important
 	
 }
     .portfolio-modal .modal-content {
