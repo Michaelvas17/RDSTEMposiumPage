@@ -448,7 +448,7 @@ a.hover {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     border-radius: 0px !important; 
-    background-color: #333333;
+    background-color: #333333; !important
 }
 
 
