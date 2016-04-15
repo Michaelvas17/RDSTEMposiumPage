@@ -431,7 +431,7 @@ a.hover {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2c3e50;
+  background-color: #fff;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -444,7 +444,7 @@ a.hover {
   display: none;
 }
 
-.modal-content .pres-modal  {
+.portfolio-modal .modal-content {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     border-radius: 0px !important; 
