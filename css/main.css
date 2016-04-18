@@ -407,8 +407,6 @@ a.hover {
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  width: 25px;
-  height: 25px;
   background-color: transparent;
   top: 25px;
   right: 65px;
