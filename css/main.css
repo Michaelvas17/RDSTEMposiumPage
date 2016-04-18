@@ -369,6 +369,8 @@ a.hover {
   background-color: transparent;
   border-color: transparent;
   border-radius: 24px;
+  font-size: 20px !important;
+  font-weight: 200 !important;
 }
 
 .btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
