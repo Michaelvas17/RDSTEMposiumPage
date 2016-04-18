@@ -364,17 +364,17 @@ a.hover {
   background-color: #595959;
   border-color: #fff;
     }
-.btn-mapit {
-  color: #1a75ff;
+.btn-px {
+  color: fff;
   background-color: transparent;
-  border-color: #fff;
+  border-color: transparent;
   border-radius: 24px;
 }
 
-.btn-mapit:hover, .btn-mapit:focus, .btn-mapit:active, .btn-mapit.active, .open > .btn-mapit.dropdown-toggle {
+.btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
     color: #fff;
-  background-color: #1a75ff;
-  border-color: #fff;
+  background-color: transparent;
+  border-color: transparent;
     }
 
 /* Presentation Modals (freelancer) */    
