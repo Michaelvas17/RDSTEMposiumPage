@@ -471,11 +471,11 @@ float: left;
 }
 
 .alert-body {
-	font-size: 15px;
+	font-size: 15px !important;
 }
 
 .alert-title {
-	font-size: 20px;
+	font-size: 20px !important;
 	font-weight: bold;
 }
 
