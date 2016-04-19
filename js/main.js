@@ -8,14 +8,3 @@ function checkScroll(){
     }
 }
 
-if($('.navbar').length > 0){
-    $(window).on("scroll load resize", function(){
-        checkScroll();
-    });
-}
-
-$(document).ready(function () {
-			  $(".navbar-toggle").on("click", function () {
-				    $(this).toggleClass("active");
-			  });
-		});
