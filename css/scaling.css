@@ -15,6 +15,10 @@
 		size: 20px;
 	
 	}
+	rsvp-msg {
+	padding-left: 90px;
+	padding-top: 40px;
+}
     }
 .custom-navbar .navbar-right {
 	    float: right;
@@ -220,3 +224,7 @@ header .container {
   z-index: 2;
 }
 
+rsvp-msg {
+	padding-left: 390px;
+	padding-top: 40px;
+}
