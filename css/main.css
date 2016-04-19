@@ -450,3 +450,9 @@ a.hover {
     background-color: #333333; !important
 }
 
+.classphoto-wide {
+max-height: 1020px;
+max-width: 100%;
+	
+}
+}
