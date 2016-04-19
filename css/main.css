@@ -355,7 +355,7 @@ a.hover {
 
 .btn-stbtn:hover, .btn-stbtn:focus, .btn-stbtn:active, .btn-stbtn.active, .open > .btn-stbtn.dropdown-toggle {
     color: #fff;
-  background-color: #672ed1;
+  background-color: rgba(255, 255, 255, 0.23);
   border-color: #fff;
     }
     
@@ -367,7 +367,7 @@ a.hover {
 
 .btn-rsvp:hover, .btn-rsvp:focus, .btn-rsvp:active, .btn-rsvp.active, .open > .btn-rsvp.dropdown-toggle {
     color: #fff;
-  background-color: #595959;
+  background-color: rgba(255, 255, 255, 0.23);
   border-color: #fff;
     }
 .btn-px {
