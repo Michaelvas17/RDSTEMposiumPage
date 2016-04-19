@@ -457,7 +457,7 @@ float: left;
 	
 }
 
-.alert-rsvp {
+.alert .alert-rsvp {
     border-radius: 2px;
 	background: #0061E8;
 	border: 0;
