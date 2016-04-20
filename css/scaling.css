@@ -15,6 +15,22 @@
 		size: 20px;
 	
 	}
+
+	.alert-rsvp {
+	width: 303px !important;
+}
+
+img-circle {
+	width: 100px !important;
+	height: 100px !important;
+
+}
+
+.portfolio-modal .close-modal {
+right: 10px !important;
+	
+}
+	
 	
     }
 .custom-navbar .navbar-right {
@@ -72,9 +88,14 @@ header .container {
     padding-bottom: 250px;
 }
 
-rsvp-msg {
-	padding-left: 90px !important;
-	padding-top: 40px;
+.alert-rsvp {
+	width: 345px !important;
+}
+
+classphoto-wide {
+	max-width: 375px !important;
+	height: 650px !important;
+	
 }
 
   }
@@ -138,6 +159,11 @@ header .container {
     padding-top: 90px;
     padding-bottom: 250px;
 }
+
+.alert-rsvp {
+	width: 288px !important;
+}
+
   	
 }
 
@@ -166,7 +192,7 @@ header .container {
 }
 header .intro-text .name {
     display: block;
-    font-size: 40px;
+    font-size: 40px !important;
     font-weight: 300;
 }
 
@@ -176,7 +202,7 @@ header .intro-text .skills {
 }
 header .container {
 	
-    padding-top: 50px;
+    padding-top: 20px !important;
     padding-bottom: 250px;
 }
 
