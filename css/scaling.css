@@ -3,7 +3,7 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 900px) 
-  and (-webkit-min-device-pixel-ratio: 2){ 
+  and (-webkit-min-device-pixel-ratio: 2){
   
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777; }
@@ -15,10 +15,7 @@
 		size: 20px;
 	
 	}
-	rsvp-msg {
-	padding-left: 90px;
-	padding-top: 40px;
-}
+	
     }
 .custom-navbar .navbar-right {
 	    float: right;
@@ -73,6 +70,11 @@ header .container {
 	
     padding-top: 230px;
     padding-bottom: 250px;
+}
+
+rsvp-msg {
+	padding-left: 90px !important;
+	padding-top: 40px;
 }
 
   }
