@@ -16,9 +16,7 @@
 	
 	}
 
-	.alert-rsvp {
-	width: 303px !important;
-}
+	
 
 img-circle {
 	width: 100px !important;
@@ -109,23 +107,34 @@ classphoto-wide {
   
   .img-headwrap {
     max-width: 375px;
-    max-height: 235px;  
+    max-height: 235px;
+    top: 20% !important;  
 }
 header .intro-text .name {
     display: block;
-    font-size: 40px;
+    font-size: 23px !important;
     font-weight: 300;
 }
 
 header .intro-text .skills {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 400;
 }
 header .container {
 	
-    padding-top: 100px;
-    padding-bottom: 250px;
+    padding-top: 62px !important;
+    padding-bottom: 253px !important;
 }
+
+.alert-rsvp {
+	width: 635px !important;
+}
+
+.content-wrapper {
+	top: 100% !important;
+
+}
+
   }
   /* IPHONE 5&4 INCH DEVICES */
   /* iPhone 5 Portrait */
@@ -161,7 +170,7 @@ header .container {
 }
 
 .alert-rsvp {
-	width: 288px !important;
+	width: 345px !important;
 }
 
   	
@@ -250,9 +259,4 @@ header .container {
 }
 #portfolio * {
   z-index: 2;
-}
-
-rsvp-msg {
-	padding-left: 390px;
-	padding-top: 40px;
 }
