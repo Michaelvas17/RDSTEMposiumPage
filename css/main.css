@@ -459,7 +459,7 @@ a.hover {
 classphoto-wide {
 max-height: 1020px;
 max-width: 100%;
-float: left;
+left: 0;
 	
 }
 
@@ -469,6 +469,7 @@ float: left;
 	border: 0;
 	color: white;
 	width: 393px;
+	
 }
 
 .alert-body {
