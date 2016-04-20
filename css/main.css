@@ -468,7 +468,7 @@ float: left;
     background: #0061E8;
     border: 0;
     color: white;
-    width: 300px;
+
 }
 
 .alert-body {
@@ -480,10 +480,5 @@ float: left;
 	font-weight: bold;
 }
 
-rsvp-msg {
-	
-	padding-left: 393px !important;
-	
-}
 
 
