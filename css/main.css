@@ -457,19 +457,18 @@ a.hover {
 }
 
 classphoto-wide {
-max-height: 1020px;
+max-height: 100%;
 max-width: 100%;
-left: 0;
+float: left;
 	
 }
 
 .alert-rsvp {
     border-radius: 2px;
-	background: #0061E8;
-	border: 0;
-	color: white;
-	width: 393px;
-	
+    background: #0061E8;
+    border: 0;
+    color: white;
+    width: 300px;
 }
 
 .alert-body {
