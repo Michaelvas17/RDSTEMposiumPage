@@ -13,14 +13,7 @@ window.addEventListener('load', function(){
         statusdiv.innerHTML = 'Status: touchstart<br> ClientX: ' + startx + 'px'
         e.preventDefault()
     }, false)
- 
-    box1.addEventListener('touchmove', function(e){
-        var touchobj = e.changedTouches[0] // reference first touch point for this event
-        var dist = parseInt(touchobj.clientX) - startx
-        statusdiv.innerHTML = 'Status: touchmove<br> Horizontal distance traveled: ' + dist + 'px'
-        e.preventDefault()
-    }, false)
- 
+
     box1.addEventListener('touchend', function(e){
         var touchobj = e.changedTouches[0] // reference first touch point for this event
         statusdiv.innerHTML = 'Status: touchend<br> Resting x coordinate: ' + touchobj.clientX + 'px'
