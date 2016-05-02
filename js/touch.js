@@ -45,14 +45,3 @@ setListener($touchArea,'touchend mouseup touchcancel',function (e){
     touchStarted = false;
     $touchArea.innerHTML = 'Touchended';
 });
-setListener($touchArea,'touchmove mousemove',function (e){
-    e.preventDefault();
-    var pointer = getPointerEvent(e);
-    currX = pointer.pageX;
-    currY = pointer.pageY;
-    if(touchStarted) {
-         // here you are swiping
-         $touchArea.innerHTML = 'Swiping';
-    }
-   
-});
