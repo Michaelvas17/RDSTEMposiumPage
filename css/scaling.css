@@ -15,7 +15,9 @@
 		size: 20px;
 	
 	}
-
+.img-classpic {
+	padding-left: 35px !important;
+}
 	
 
 img-circle {
@@ -52,6 +54,7 @@ right: 10px !important;
 	    clear: both;
 	    float: none;
 	}
+	
 	}
 }
 }
@@ -95,6 +98,7 @@ classphoto-wide {
 	height: 650px !important;
 	
 }
+
 
   }
   
