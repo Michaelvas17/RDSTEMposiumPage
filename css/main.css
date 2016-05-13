@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+a {
+cursor: pointer;
+}
+
 /* Body */
 body {
 background-color: rgb(51, 51, 51);
