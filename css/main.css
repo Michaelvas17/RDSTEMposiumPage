@@ -30,6 +30,7 @@ header {
     text-align: center;
     color: #fff;
     background-color: #393939;
+    
     position: fixed;
     width:100%;
     z-index: 1;
@@ -55,14 +56,14 @@ header .container {
 }
 
 
-header .caption .title {
+header .intro-text .name {
     display: block;
     font-size: 46px;
     font-weight: 300;
     padding-top: 25px;
 }
 
-header .caption .subtitle {
+header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 400;
 }
@@ -78,7 +79,8 @@ section h2 {
     margin: 0;
     font-size: 3em;
 }
-hr .stylized {
+hr.star-light,
+hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -87,7 +89,8 @@ hr .stylized {
     text-align: center;
 }
 
-hr .stylized:after {
+hr.star-light:after,
+hr.star-primary:after {
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -96,7 +99,16 @@ hr .stylized:after {
     font-size: 2em;
 }
 
-section .contents{
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    
+}
+
+section.contents{
     color: #fff;
     }
     
@@ -342,16 +354,42 @@ a.hover {
   padding-right: 0;
   padding-left: 0;
 }
-.btn-outlined {
+.btn-stbtn {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
 }
 
-.btn-outlined:hover, .btn-outlined:focus, .btn-outlined:active, .btn-outlined.active, .open > .btn-outlined.dropdown-toggle {
+.btn-stbtn:hover, .btn-stbtn:focus, .btn-stbtn:active, .btn-stbtn.active, .open > .btn-stbtn.dropdown-toggle {
     color: #fff;
   background-color: rgba(255, 255, 255, 0.23);
   border-color: #fff;
+    }
+    
+.btn-rsvp {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-rsvp:hover, .btn-rsvp:focus, .btn-rsvp:active, .btn-rsvp.active, .open > .btn-rsvp.dropdown-toggle {
+    color: #fff;
+  background-color: rgba(255, 255, 255, 0.23);
+  border-color: #fff;
+    }
+.btn-px {
+  color: fff;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 24px;
+  font-size: 20px !important;
+  font-weight: 200 !important;
+}
+
+.btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
+    color: #fff;
+  background-color: transparent;
+  border-color: transparent;
     }
 
 /* Presentation Modals (freelancer) */    
@@ -458,6 +496,5 @@ float: left;
 .img-classpic {
 	padding-left: 55px;
 }
-
 
 
