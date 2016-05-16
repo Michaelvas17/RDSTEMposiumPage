@@ -478,6 +478,15 @@ float: left;
 
 }
 
+.alert-cd {
+    border-radius: 2px;
+    background: #52DE6C;
+    border: 0;
+    color: white;
+
+}
+
+
 .alert-body {
 	font-size: 13px !important;
 }
