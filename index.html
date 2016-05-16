@@ -21,17 +21,7 @@
 
 <script src="https://rawgit.com/rdhs-stemposium/site/gh-pages/js/main.js"></script>
 
-<script src="https://rawgit.com/rdhs-stemposium/site/gh-pages/js/jquery.countdown.js"></script>
-<script>
-$('#clock').countdown('2020/10/10', function(event) {
-   var $this = $(this).html(event.strftime(''
-     + '<span>%w</span> weeks '
-     + '<span>%d</span> days '
-     + '<span>%H</span> hr '
-     + '<span>%M</span> min '
-     + '<span>%S</span> sec'));
- });
-</script>
+<script src="https://cdn.rawgit.com/mattbryson/TouchSwipe-Jquery-Plugin/master/jquery.touchSwipe.min.js"></script>
 
 </head>
 
@@ -91,7 +81,17 @@ $('#clock').countdown('2020/10/10', function(event) {
                
                     
                 <div>
-   
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="alert alert-rsvp" role="alert" align="center">
+                <p class="alert-title">Are you coming?</p>
+                <p class="alert-body">
+                If you are, you should RSVP now. Please RSVP by <b>May 15th</b>.
+                </p>
+                <p><a href="https://docs.google.com/forms/d/17WwHckcBglJsXAPnS8cCjKOHeV8mwBLIyCe-IgWR1vQ/viewform" class="btn btn-rsvp">RSVP</a></p>
+            </div>
+        </div>
+    </div>
 </div></div>
             </div>
         </div>
