@@ -23,9 +23,14 @@
 
 <script src="https://rawgit.com/rdhs-stemposium/site/gh-pages/js/jquery.countdown.js"></script>
 <script>
-	$('#clock').countdown('2016/05/18', function(event) {
-   $(this).html(event.strftime('%D days, %H hours, %M minutes, and %S seconds'));
-		 });
+$('#clock').countdown('2020/10/10', function(event) {
+   var $this = $(this).html(event.strftime(''
+     + '<span>%w</span> weeks '
+     + '<span>%d</span> days '
+     + '<span>%H</span> hr '
+     + '<span>%M</span> min '
+     + '<span>%S</span> sec'));
+ });
 </script>
 
 </head>
@@ -91,7 +96,7 @@
             <div class="alert alert-cd" role="alert" align="center">
                 <p class="alert-title">It's almost here!</p>
                 <p class="alert-body">
-                <span id="clock"></span>
+                <div id="clock"></div>
                 until the STEMposium.
                 
                 </p>
