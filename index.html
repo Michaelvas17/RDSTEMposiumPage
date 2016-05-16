@@ -22,6 +22,11 @@
 <script src="https://rawgit.com/rdhs-stemposium/site/gh-pages/js/main.js"></script>
 
 <script src="https://rawgit.com/rdhs-stemposium/site/gh-pages/js/jquery.countdown.js"></script>
+<script>
+	$('#clock').countdown('2016/05/18', function(event) {
+2   $(this).html(event.strftime('%D days, %H hours, %M minutes, and %S seconds'));
+3 });
+</script>
 
 </head>
 
@@ -90,7 +95,7 @@
                 until the STEMposium.
                 
                 </p>
-                <p><a href="https://docs.google.com/forms/d/17WwHckcBglJsXAPnS8cCjKOHeV8mwBLIyCe-IgWR1vQ/viewform" class="btn btn-rsvp">RSVP</a></p>
+                
             </div>
         </div>
     </div>
